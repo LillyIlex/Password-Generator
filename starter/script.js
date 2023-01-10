@@ -88,6 +88,7 @@ var upperCasedCharacters = [
   'Z'
 ];
 
+//variable to hold user selection
 var passwordChoices = []
 
 
@@ -120,6 +121,7 @@ function getPasswordOptions() {
 
   var collectedPasswordChoices = []
 
+  // Function for getting a random element from an array
   for ( var i = 0; i < passwordLength; i++) {
     collectedPasswordChoices.push(passwordChoices[(Math.floor(Math.random() * passwordChoices.length))])
   }
@@ -127,9 +129,6 @@ function getPasswordOptions() {
   return collectedPasswordChoices.join('')
 }
 }
-
-//getPasswordOptions()
-
 
 // Get references to the #generate element
 var generateBtn = document.querySelector('#generate');
@@ -145,14 +144,3 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener('click', writePassword);
 
-
-
-/* Function for getting a random element from an array
-function getRandom(arr) {
-//Math.random()
-}
-
-// Function to generate password with user input
-function generatePassword() {
-
-} //value = generatePassword(length. value, characters); }); */
