@@ -3,6 +3,7 @@
 ## Usage
 In this web app you can generate a random password once clicking the button. This will prompt you to specificy the length of password youwould like, along with the type of characters you would like to include in your randomly generated password. Once all this is selected, your random password will be generated and display in the window.
 
+Take a look at the deplaoyed webpage here  https://lillyilex.github.io/Password-Generator/
 ### Screenshots
 Here are some examples of the prompts, and a generated password based on selections.
 ![Password](https://user-images.githubusercontent.com/116085080/211652080-5098d93d-6ef7-4411-8b88-36e220ac8195.png)
